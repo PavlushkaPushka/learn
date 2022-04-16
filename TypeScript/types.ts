@@ -1,3 +1,9 @@
+// Тайпскрипт, это язык, которые используется только на этапе разработки приложения, как я понимаю, он активно используется при разработке реакт приложений
+
+
+//ПЕРЕМЕННЫЕ//
+//ПЕРЕМЕННЫЕ//
+//ПЕРЕМЕННЫЕ//
 const str: string = 'good'
 
 const bool_1: boolean = true
@@ -24,6 +30,15 @@ let variable: any = 44
 variable = 'New String'
 variable = []
 
+
+
+
+
+
+//ФУНКЦИИ//
+//ФУНКЦИИ//
+//ФУНКЦИИ//
+
 // Явное указание на то, что функция ни чего нам не вернет
 function sayMyName(name: string): void {
     console.log(name)
@@ -31,4 +46,32 @@ function sayMyName(name: string): void {
 
 sayMyName('Richard')
 
-//Never
+//Never - функция которая никогда не завершится
+// эта штука нужна тогда, когда функция возвращает ошибку, либо постоянно что то делает (отслеживает что то постоянно, например)
+function throwMessage(message: string): never {
+    throw new Error(message)
+}
+function infinite(): never {
+    let a = true
+
+    while (true) {
+
+    }
+}
+
+
+
+//СВОИ ТИПЫ (ЭЛИАСЫ)//
+//СВОИ ТИПЫ (ЭЛИАСЫ)//
+//СВОИ ТИПЫ (ЭЛИАСЫ)//
+
+type Login = string
+const login: Login = 'admin'
+
+// еще можно указывать потенциально различные типы данных
+
+type ID = string | number
+const id_1: ID = 1234
+const id_2: ID = "1234"
+
+type SomeType = string | null | undefined
