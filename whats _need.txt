@@ -1,3 +1,4 @@
 TypeScript
 Pattern
 Algorithmes
+cors - что бы отправлять запросы с браузера

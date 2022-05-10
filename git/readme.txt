@@ -6,3 +6,5 @@
 4. Далее просто, копируешь строку из созданного репозитория 
 5. git remote add origin https://github.com/PavlushkaPushka/learn.git
 6. И заливаешь то, что у тебя есть локально git push -u origin main
+
+7. git pull --rebase origin main   - забирает ветки с гитхаба
