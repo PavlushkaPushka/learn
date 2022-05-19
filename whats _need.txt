@@ -2,3 +2,5 @@ TypeScript
 Pattern
 Algorithmes
 cors - что бы отправлять запросы с браузера
+dom tree need to learn because i have a problem with it
+bind and this different

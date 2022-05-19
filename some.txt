@@ -1,0 +1,20 @@
+<!-- https://www.youtube.com/watch?v=GNrdg3PzpJQ&t=886s -->
+state mangment
+redux
+mobx
+typescrypt
+realtime
+internet magazin
+oblacnoe hranilishe
+music platform
+
+Реакт библиотека для создания пользовательских интерфейсов
+Это не библиотека для создания веб приложений запускаемых в браузере
+Реакт независим от браузера
+За визуал, отрисовку, рендеринг, отвечает реакт дом, поэтому помимо бразуерных приложений можно создавать приложения под айос и андроид 
+Реакт это не библиотека
+
+
+multi page application and single page application
+для того что бы первичная загрузка single page application была быстрее необходимо настроить вебпак, использовать lazy loading и другие хитрости
+useState hook - предназначен для того что бы менять состояние компонента 
